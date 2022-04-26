@@ -1,0 +1,7 @@
+.black-window, .white-window {
+    background: #00000075;
+    &:before {
+    background: #00000075 !important;
+    filter: blur(1.75px);
+    }
+}

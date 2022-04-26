@@ -1,0 +1,57 @@
+.sDlist {
+    list-style: none !important;
+    margin: 0;
+    .sD_item {
+    /* margin: 5px; */
+    display: flex;
+    line-height: inherit;
+    flex-direction: row;
+    align-items: flex-start;
+    font-weight: 400;
+    margin-bottom: 12px;
+    line-height: 20px;
+        i {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+    }
+}    
+
+
+.novashare-inline-cta {
+    display: flex;
+    align-items: center;
+    strong {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+.nasa-single-share {
+    align-items: baseline !important;
+    margin: 15px 0;
+    flex-direction: column !important;
+    .social-icons {
+        display: none !important;
+    }
+    .essb_links {
+        margin-left: 25px !important;
+    }
+}
+
+
+
+product_cat-childrens-bean-bags {
+    display: block !important;
+}
+
+
+.bbp_ppi {
+    border-radius: var(--bR-1);
+    @include box-shadow(2);
+}

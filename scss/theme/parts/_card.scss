@@ -1,0 +1,15 @@
+.product-item {
+    @include box-shadow(1);
+    border-radius: $borderRadius !important;
+    background: $white;
+    transition: 300ms;
+    
+    &:hover {
+        scale: 1.015;
+    }
+    .product-info-wrap.info {
+        border: 1px solid #ececec;
+        padding: 0.45rem 4%;
+        display: grid;
+    }
+}

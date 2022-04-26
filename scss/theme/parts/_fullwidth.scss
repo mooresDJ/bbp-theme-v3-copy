@@ -1,0 +1,11 @@
+/* See warning below */
+@supports (width: 100vw) {
+  .full-width {
+    width: 100vw;
+  }
+  @media all and (min-width: 40rem) {
+    .full-width {
+       transform: translateX(calc((40rem - 100vw)/2));
+    }
+  }
+}

@@ -1,0 +1,28 @@
+nav.woocommerce-MyAccount-navigation:not(.bbpNavSquare) {
+    @include box-shadow(2);
+    border: 1px solid #ececec;
+    background: whitesmoke;
+    border-radius: var(--bR-1);
+    overflow: hidden;
+    ul {
+        border-radius: var(--bR-1);
+        background: white;
+
+    }
+}
+
+.bbpNavSquare {
+    ul {
+        margin: 0 !important;
+        li {
+            a {
+            @include box-shadow(2);
+            border: 1px solid #ececec;
+            border-radius: var(--bR-1);
+            }
+        }
+    }
+}
+
+
+

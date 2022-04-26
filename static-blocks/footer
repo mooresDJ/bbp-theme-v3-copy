@@ -1,0 +1,40 @@
+<div class="grid-container">
+    <div class="grid-x padding-top-80 padding-bottom-50 footer-light-2">
+
+
+
+
+        <div id="fC-1" class="cell medium-6">1
+            <a class="footerLogo">
+                <img class="" src="https://bbptest.local:8890/wp-content/uploads/bbp-logo.svg" alt="" width="594"
+                    height="150" />
+            </a>
+        </div>
+
+
+
+        <div id="fC-2" class="cell medium-6">2
+            <div class="row row-inner row-fluid footer-contact">
+                [contact-form-7 id="210"]
+            </div>
+        </div>
+
+
+
+
+        <div id="fC-3" class="cell medium-3">3
+            [nasa_menu menu="information"]</div>
+        <div id="fC-4" class="cell medium-3">4
+            [nasa_menu menu="footer-menu"]</div>
+        <div id="fC-5" class="cell medium-3">5
+            [nasa_menu menu="information"]</div>
+        <div id="fC-6" class="cell medium-3">6
+            [nasa_menu menu="footer-menu"]</div>
+        <div class="footer-bottom flex-container">
+            <div id="fC-7" class="cell medium-6">7
+                [nasa_menu menu="information"]</div>
+            <div id="fC-8" class="cell medium-6">8
+                [nasa_menu menu="footer-menu"]</div>
+        </div>
+    </div>
+</div>

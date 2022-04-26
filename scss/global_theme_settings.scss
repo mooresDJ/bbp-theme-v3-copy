@@ -1,0 +1,88 @@
+/* SCSS HEX */
+:root {
+	/* CSS HEX */
+		--flickr-pink: #f72585ff;
+		--byzantine: #b5179eff;
+		--purple: #7209b7ff;
+		--purple-2: #560badff;
+		--trypan-blue: #480ca8ff;
+		--trypan-blue-2: #3a0ca3ff;
+		--persian-blue: #3f37c9ff;
+		--ultramarine-blue: #4361eeff;
+		--dodger-blue: #4895efff;
+		--vivid-sky-blue: #4cc9f0ff;
+	    --borderColor: #e8e8e8;
+
+		--checkboxSize: 18px;
+		--bR-1: 1rem;
+		--buttonRadius: 5px;
+	}
+$borderC: #e8e8e8;
+$borderRadius: 6px;
+
+$flickr-pink: #f72585ff;
+$byzantine: #b5179eff;
+$purple: #7209b7ff;
+$purple-2: #560badff;
+$trypan-blue: #480ca8ff;
+$trypan-blue-2: #3a0ca3ff;
+$persian-blue: #3f37c9ff;
+$ultramarine-blue: #4361eeff;
+$dodger-blue: #4895efff;
+$vivid-sky-blue: #4cc9f0ff;
+
+/* SCSS HSL */
+$flickr-pink: hsla(333, 93%, 56%, 1);
+$byzantine: hsla(309, 77%, 40%, 1);
+$purple: hsla(276, 91%, 38%, 1);
+$purple-2: hsla(268, 88%, 36%, 1);
+$trypan-blue: hsla(263, 87%, 35%, 1);
+$trypan-blue-2: hsla(258, 86%, 34%, 1);
+$persian-blue: hsla(243, 57%, 50%, 1);
+$ultramarine-blue: hsla(229, 83%, 60%, 1);
+$dodger-blue: hsla(212, 84%, 61%, 1);
+$vivid-sky-blue: hsla(194, 85%, 62%, 1);
+
+
+
+@mixin box-shadow ($level) {
+
+	@if $level == 1 {
+		box-shadow: 0 0.125em 0.313em rgba(50,50,93,.09), 0 0.063em 0.125em rgba(0,0,0,.07);
+	} @else if $level == 2 {
+    box-shadow: 0 0.250em 0.375em rgba(50,50,93,.09), 0 0.063em 0.188em rgba(0,0,0,.08);
+	} @else if $level == 3 {
+    box-shadow: 0 0.063em 0.313em 0 rgba(50,50,93,.07), 0 0.438em 1.063em 0 rgba(0,0,0,.1);
+	} @else if $level == 4 {
+    box-shadow: 0 0.938em 2.188em rgba(50,50,93,.1), 0 0.313em 0.938em rgba(0,0,0,.07);
+	} @else if $level == 5 {
+    box-shadow: 0 0.938em 2.188em rgba(50,50,93,.15), 0 0.313em 0.938em rgba(0,0,0,.1);
+	}
+
+}
+.bS-0 {
+    // box-shadow: 0 2px rgb(50,50,93, 10%), 0 0 0 0.5px rgb(0 0 0 / 4%);
+}
+.bS-1 {
+	@include box-shadow(1);
+}
+
+.bS-2 {
+	@include box-shadow(2);
+	transition: box-shadow .3s ease;
+	&:hover {
+		@include box-shadow(4);
+	}
+}
+
+.bS-3 {
+	@include box-shadow(3);
+}
+
+.bS-4 {
+	@include box-shadow(4);
+}
+
+.bS-5 {
+	@include box-shadow(5);
+}

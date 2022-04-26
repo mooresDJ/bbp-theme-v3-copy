@@ -1,0 +1,24 @@
+.nasa-archive-product-content {
+    .nasa-sidebar-off-canvas {
+ .widget {
+         	@include box-shadow(1);
+            background: $white;
+            border-radius: var(--bR-1);
+
+ }
+}
+}
+
+.nasa-content-page-products {
+    ul {
+        list-style: none;
+        margin: 0;
+    }
+}
+
+.nasa-slider-items-margin .nasa-slider-item, .nasa-slider-items-margin .product-item, .nasa-slider-items-margin .item-product-widget, .nasa-slider-items-margin .blog-item, .nasa-slider-items-margin .brands-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
